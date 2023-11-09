@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/aob"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/aob"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shoppinapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ordervisit"
+            android:exported="false" />
+        <activity
+            android:name=".help"
+            android:exported="false" />
+        <activity
+            android:name=".Searchintent"
+            android:exported="false" />
+        <activity
+            android:name=".categoryview"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".orderdone"
+            android:exported="false" />
+        <activity
+            android:name=".order"
+            android:exported="false" />
+        <activity
+            android:name=".All_Item_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
